@@ -1,0 +1,2 @@
+module FichacortaHelper
+end

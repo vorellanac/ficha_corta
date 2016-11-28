@@ -1,0 +1,1 @@
+json.array! @fichacorta, partial: 'fichacorta/fichacortum', as: :fichacortum

@@ -1,0 +1,2 @@
+class Fichacortum < ApplicationRecord
+end

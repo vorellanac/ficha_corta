@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  productomatnr: 
+  ferid: 1
+  fob: 1.5
+  preciosug: 1
+  productominmb: 1
+  prvregcod: 1
+
+two:
+  productomatnr: 
+  ferid: 1
+  fob: 1.5
+  preciosug: 1
+  productominmb: 1
+  prvregcod: 1

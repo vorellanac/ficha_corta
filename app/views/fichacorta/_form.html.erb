@@ -1,0 +1,47 @@
+<%= form_for(fichacortum) do |f| %>
+  <% if fichacortum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(fichacortum.errors.count, "error") %> prohibited this fichacortum from being saved:</h2>
+
+      <ul>
+      <% fichacortum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :productomatnr %>
+    <%= f.text_field :productomatnr %>
+  </div>
+
+  <div class="field">
+    <%= f.label :ferid %>
+    <%= f.number_field :ferid %>
+  </div>
+
+  <div class="field">
+    <%= f.label :fob %>
+    <%= f.text_field :fob %>
+  </div>
+
+  <div class="field">
+    <%= f.label :preciosug %>
+    <%= f.number_field :preciosug %>
+  </div>
+
+  <div class="field">
+    <%= f.label :productominmb %>
+    <%= f.number_field :productominmb %>
+  </div>
+
+  <div class="field">
+    <%= f.label :prvregcod %>
+    <%= f.number_field :prvregcod %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
